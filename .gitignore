@@ -24,3 +24,5 @@ yarn-error.log*
 
 # 系统文件（例如 macOS 下的 .DS_Store 文件）
 .DS_Store
+
+.next/
