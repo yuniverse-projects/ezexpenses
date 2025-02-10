@@ -1,0 +1,26 @@
+# 依赖包
+/node_modules/
+
+# 构建输出目录（如果使用 create-react-app，默认是 build 目录）
+/build/
+
+# 如果你使用其他构建工具，也可能会有 dist 或者其他构建目录
+/dist/
+
+# 环境变量文件（不要将敏感信息提交到仓库）
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 测试覆盖率输出（如果你使用 jest 进行测试）
+/coverage/
+
+# 系统文件（例如 macOS 下的 .DS_Store 文件）
+.DS_Store
